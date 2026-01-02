@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    margin:0;
+    padding:0;
+    background-color:none;
+    display:flex;
+}
+.sidebar{
+    min-height:600vh;
+    padding-top: 200px;
+    width:19%;
+    background-color:rgb(41, 1, 41);
+    display:inline-block;
+    position:fixed;
+}
+.content{
+    height:100%;
+    width: 80%;
+    background-color:rgb(245, 205, 233);
+    display:inline-block;
+    margin-left:256px;
+    padding: 20px;
+    flex: 1;
+}
+
+.profileimg{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    border:5px solid rgb(241, 145, 241);
+}
+.list{
+    list-style-type:none;
+}
+.list a{
+    color:rgb(241, 145, 241);
+    text-decoration: none;
+}
+.list a:hover{
+    color:white;
+}
+.about{
+    padding-top: 270px;
+    padding-bottom: 250px;
+    border-bottom: 1px solid black;
+}
+.me{
+    color:rgb(41, 1, 41)
+}
+.you{
+    color:rgb(45, 15, 73);
+}
+.you a{
+    color:rgb(45, 15, 73);
+}
+.you a:hover{
+    color:white;
+}
+.experience{
+    padding-top: 270px;
+    padding-bottom: 250px;
+    border-bottom: 1px solid black;
+}
+.car{
+    color:rgb(98, 13, 177)
+}
+.bee{
+    color:rgb(153, 64, 236)
+}
+.skills{
+    padding-left: 20px;
+    padding-top: 270px;
+    padding-bottom: 250px;
+    border-bottom: 1px solid black;
+}
+.icons{
+    width: 200px;
+    height: 200px;
+    display:inline;
+    margin-top: 30px;
+    justify-content: center;
+}
+.interest{
+    padding-top: 270px;
+    padding-bottom: 250px;
+    border-bottom: 1px solid black;
+}
+.awards{
+    padding-left: 20px;
+    padding-top: 270px;
+    padding-bottom: 250px;
+    
+}
+.list{
+    color:rgb(98, 13, 177);
+}
+.list2{
+    color:rgb(98, 13, 177);
+}
+.list2 i{
+    color:rgb(240, 199, 16);
+}
